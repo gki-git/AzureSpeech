@@ -23,7 +23,6 @@ button {
   align-items: center;
   gap: 2rem;
   margin: 2rem 0;
-  width: 700px;
 }
 
 .inputsContainer{
@@ -36,13 +35,20 @@ button {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  width: 100%;
 }
 
 .inputText input, .selectInput select {
   padding: 0.5rem 1rem;
-  width: 250px;
+  width: 100%;
 }
 
 .pitchInput input{
-  width: 250px;
+  width: 50%;
+}
+
+@media (max-width: 400px){
+  .inputsContainer{
+    flex-direction: column;
+  }
 }
