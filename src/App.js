@@ -15,6 +15,7 @@ const voicesArr = [
   { value: 'en-US-EricNeural', label: 'Eric' },
   { value: 'en-US-CoraNeural', label: 'Cora' },
   { value: 'en-US-ElizabethNeural', label: 'Elizabeth' },
+  { value: 'es-AR-ElenaNeural', label: 'Elena - Spanish' },
 ];
 
 const getSSMLConfig = (text, voiceValue, speed, pitch) => {
